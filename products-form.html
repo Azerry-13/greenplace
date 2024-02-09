@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="src/svg_favicon.png">
+    <title>Greenplace</title>
+</head>
+<body class="products-page">
+    <header>
+        <div class="container">
+            <a href="main.html"><img src="src/Logo_Greenplace.png" alt="Greenplace logo"></a>
+        <nav>
+            <a href="about.html" class="small-text">О компании</a>
+            <a href="partnership.html" class="small-text">Стать партнером</a>
+            <a href="products.html" class="small-text">Товары</a>
+            <a href="contact.html" class="small-text">Контакты</a>
+            <a href="support.html" class="small-text">Поддержка</a>
+        </nav>
+        <a href="404.html" class="green-link">B2B</a>
+
+        <div id="burger-menu" class="">
+            <div class="top-burger"></div>
+            <div class="mid-burger"></div>
+            <div class="bottom-burger"></div>
+        </div>
+        </div>
+        <div class="header-mobile">
+            <nav class="mobile">
+                <a class="links-mobile" href="about.html" class="small-text">О компании</a>
+                <a class="links-mobile" href="partnership.html" class="small-text">Стать партнером</a>
+                <a class="links-mobile" href="products.html" class="small-text">Товары</a>
+                <a class="links-mobile" href="contact.html" class="small-text">Контакты</a>
+                <a class="links-mobile" href="support.html" class="small-text">Поддержка</a>
+                <a class="links-mobile" href="404.html" class="green-link">B2B</a>
+            </nav>
+        </div>
+</header>
+
+    <main class="banner products-form">
+        <div class="container">
+            <h1 class="huge-text">Запросить прайс-лист</h1>
+            <p class="big-text">Все поля обязательны для заполнения.</p>
+
+            <div class="form">
+                <h3 class="medium-text">Контактное лицо</h3>
+    
+                <input type="text" placeholder="Ф. И. О." required>
+                <input type="text" placeholder="Должность" required>
+                <input type="text" placeholder="Контактный телефон" required>
+                <input type="text" placeholder="Электронная почта" required>
+    
+                <h3 class="medium-text">Организация</h3>
+                <div class="listdropdown">
+                    <div id="list">
+                        <input id="form-1" type="text" placeholder="Клиент" readonly required>
+                      </div>
+                      
+                      <div id="dropdown-content">
+                        <div onclick="selectOption('Option 1')">Option 1</div>
+                        <div onclick="selectOption('Option 2')">Option 2</div>
+                        <div onclick="selectOption('Option 3')">Option 3</div>
+                      </div>
+                </div>
+    
+                <div class="listdropdown">
+                    <div id="list">
+                        <input id="form-2" type="text" placeholder="Предложение" readonly required>
+                      </div>
+                      
+                      <div id="dropdown-content2">
+                        <div onclick="selectOption2('Option 4')">Option 4</div>
+                        <div onclick="selectOption2('Option 5')">Option 5</div>
+                        <div onclick="selectOption2('Option 6')">Option 6</div>
+                      </div>
+                </div>
+    
+                <div class="listdropdown">
+                    <div id="list">
+                        <input id="form-3" type="text" placeholder="Форма собственности" readonly required>
+                      </div>
+                      
+                      <div id="dropdown-content3">
+                        <div onclick="selectOption3('Option 7')">Option 7</div>
+                        <div onclick="selectOption3('Option 8')">Option 8</div>
+                        <div onclick="selectOption3('Option 9')">Option 9</div>
+                      </div>
+                </div>
+                <input type="text" placeholder="Название организации" required required>
+                <input type="text" placeholder="Сайт" required required>
+                <input type="text" placeholder="Страна" required required>
+                <input type="text" placeholder="Город" required required>
+                <input type="text" placeholder="ИНН" required required>
+                <input type="text" placeholder="Вид деятельности" required required>
+                <input type="text" placeholder="Услуги или товары" required required>
+                
+                <h3 class="medium-text">Тема обращения</h3>
+                <textarea name="" id="" placeholder="Запрос" required></textarea>
+    
+                <div class="body-text">
+                    <input id="checkbox" type="checkbox">Согласен на обработку <a class="green-link" href="">персональных данных</a>
+                </div>
+        
+                <a href="#" class="button-green">Отправить форму</a>
+    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="main.html"><img src="src/Logo_Greenplace.png" alt="Greenplace logo"></a>
+            <nav>
+                <a href="about.html" class="small-text">О компании</a>
+                <a href="partnership.html" class="small-text">Стать партнером</a>
+                <a href="products.html" class="small-text">Товары</a>
+                <a href="contact.html" class="small-text">Контакты</a>
+                <a href="support.html" class="small-text">Поддержка</a>
+                <a href="guarantee.html" class="small-text">Гарантия</a>
+                <a href="anti-corruption-policy.html" class="small-text">Антикоррупционная политика</a>
+            </nav>
+        </div>
+    </footer>
+    <div class="rights">
+        <p class="small-text">© 2023, Greenplace. Все права защищены.</p>
+    </div>
+    <script src="scripts/burger-menu.js"></script>
+    <script src="scripts/dropdown-form.js"></script>
+    </body>
+</html>
