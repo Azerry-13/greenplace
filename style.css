@@ -532,6 +532,7 @@ footer .container {
     gap: 43px;
     position: relative;
     margin: 140px 0;
+    line-height: 1.2;
 }
 
 ol .green-link {
