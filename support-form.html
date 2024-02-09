@@ -6,14 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="src/svg_favicon.png">
     <title>Greenplace</title>
 </head>
-<body class="contact-page">
+<body class="support-page">
     <header>
         <div class="container">
-            <a href="../index.html"><img src="../src/Logo_Greenplace.png" alt="Greenplace logo"></a>
+            <a href="index.html"><img src="src/Logo_Greenplace.png" alt="Greenplace logo"></a>
         <nav>
             <a href="about.html" class="small-text">О компании</a>
             <a href="partnership.html" class="small-text">Стать партнером</a>
@@ -41,31 +41,37 @@
         </div>
 </header>
 
-    <main class="banner contact">
+    <main class="banner support-form">
         <div class="container">
-            <h1 class="huge-text">Контакты</h1>
+            <h1 class="huge-text">Форма связи с отделом<br>гарантии</h1>
+            <p class="big-text">Все поля обязательны для заполнения.</p>
 
-            <div class="download_contact">
-                <div class="arrow">
-                    <a href="partnership.html">Стать партнером</a>
+            <div class="form">
+                <h3 class="medium-text">Контактное лицо</h3>
+    
+                <input type="text" placeholder="Ф. И. О." required>
+                <input type="text" placeholder="Контактный телефон" required>
+                <input type="text" placeholder="Электронная почта" required>
+                <input type="text" placeholder="Название организации" required>
+                <input type="text" placeholder="Серийный номер оборудования" required>
+                
+                <h3 class="medium-text">Тема обращения</h3>
+                <textarea name="" id="" placeholder="Запрос" required></textarea>
+    
+                <div class="body-text">
+                    <input id="checkbox" type="checkbox">Согласен на обработку <a class="green-link" href="">персональных данных</a>
                 </div>
-                <div class="arrow">
-                    <a href="#">Написать нам</a>
-                </div>
-                <div class="arrow">
-                    <a href="products-form.html">Запросить прайс-лист</a>
-                </div>
+    
+                <p class="small-text politics-presonal">Отправляя Анкету, Вы выражаете свое согласие с условиями <a class="green-link" href="">политики обработки персональных данных</a>. Вы осведомлены, что отражаемые в данной Анкете персональные данные будут считаться общедоступными. Под обработкой персональных данных понимается сбор, систематизация, накопление, хранение, уточнение (обновление, изменение), использование, распространение (в том числе передача и трансграничная передача), обезличивание, блокирование, уничтожение и любые другие действия (операции) с персональными данными. Обработка персональных данных осуществляется в срок с момента регистрации.</p>
+    
+                <a href="#" class="button-green">Отправить форму</a>
+    
             </div>
-
-            <img id="responsive-image-contact" src="src/map.png" alt="">
-
-            <h2 class="big-text">Адрес</h2>
-            <p class="medium-text">125239 г. Москва, вн.тер.г. муниципальный округ Коптево, б-р Матроса Железняка,<br> д. 5, помещение 3/1</p>
         </div>
     </main>
     <footer>
         <div class="container">
-            <a href="../index.html"><img src="../src/Logo_Greenplace.png" alt="Greenplace logo"></a>
+            <a href="index.html"><img src="src/Logo_Greenplace.png" alt="Greenplace logo"></a>
             <nav>
                 <a href="about.html" class="small-text">О компании</a>
                 <a href="partnership.html" class="small-text">Стать партнером</a>
@@ -81,6 +87,5 @@
         <p class="small-text">© 2023, Greenplace. Все права защищены.</p>
     </div>
     <script src="scripts/burger-menu.js"></script>
-    <script src="scripts/contact.js"></script>
     </body>
 </html>
