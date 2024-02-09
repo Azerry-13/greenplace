@@ -97,7 +97,7 @@ body {
 
 .big-text {
     font-size: 45px;
-    line-height: auto;
+    line-height: 1.2;
     font-weight: 600;
     color: #FFFFFF;
 }
@@ -129,14 +129,34 @@ body {
 .anti-corruption-policy-page .button-green,
 .assortiment .button-green {
     margin: 140px auto 0;
-    display: block;
-    width: 250px;
+    background-color: #0FBF4A;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 240px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .not-found .button-green {
     width: 285px;
     margin: 140px auto 0;
-    display: block;
+    background-color: #0FBF4A;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
@@ -197,6 +217,8 @@ header .green-link {
 .green-link:hover {
     background: linear-gradient(to left,#00B2FE, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -212,7 +234,9 @@ h1 {
     animation: animate 10s linear infinite;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .main h1 {
@@ -236,12 +260,16 @@ h1 + p {
 .button-green {
     background-color: #0FBF4A;
     border: none;
-    padding: 28px 30px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
     font-weight: 700;
+    width: 240px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-green:hover {
@@ -250,18 +278,26 @@ h1 + p {
 
 .button-transparent {
     background-color: #272827;
-    padding: 28px 60px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
     font-weight: 700;
+    width: 238px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .transparent-color {
     background-color: #0FBF4A;
-    padding: 30px 2px;
     border-radius: 5px;
+    width: 240px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .transparent-color:hover {
@@ -271,6 +307,8 @@ h1 + p {
 .button-transparent:hover .text-gradient {
     background: linear-gradient(to left, #00B2FE, #0FBF4A, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -304,6 +342,8 @@ h1 + p {
 .stats-number:hover {
     background: linear-gradient(to left, #00B2FE, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     cursor: default;
 }
@@ -311,6 +351,8 @@ h1 + p {
 .stats-number:hover::after {
     background: linear-gradient(to left, #00B2FE, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     cursor: default;
 }
@@ -324,6 +366,7 @@ h2 {
     background: linear-gradient(to left,#00B2FE, #0FBF4A);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
     width: fit-content;
     margin: 0 auto;
@@ -431,6 +474,8 @@ img.displaySlide {
 .arrow a:hover {
     background: linear-gradient(to left,#00B2FE, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -519,6 +564,8 @@ ol .green-link {
 .download-link a:hover {
     background: linear-gradient(to left,#00B2FE, #0FBF4A);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -953,7 +1000,6 @@ h3:first-of-type {
 
     .button-green {
         margin: 0 auto;
-        display: block;
         width: 300px;
         text-align: center;
     }
@@ -1086,7 +1132,6 @@ h3:first-of-type {
 
     .button-transparent {
         width: 300px;
-        display: block;
         text-align: center;
     }
 
@@ -1181,7 +1226,6 @@ h3:first-of-type {
     
     .partnership-page .button-green, .products-page .button-green, .support-page .button-green, .anti-corruption-policy-page .button-green, .assortiment .button-green {
         margin: 72px auto 0;
-        display: block;
         width: 300px;
     }
     br {
