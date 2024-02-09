@@ -19,7 +19,7 @@ body {
 }
 
 .partnership, .partnership-form {
-    background: url(src/background-pc/background_partnership.png) top no-repeat;
+    background: url(../src/background-pc/background_partnership.png) top no-repeat;
     background-size: cover;
     height: 90vh;
 }
@@ -29,55 +29,55 @@ body {
 }
 
 .products {
-    background: url(src/background-pc/background_products.png) top no-repeat;
+    background: url(../src/background-pc/background_products.png) top no-repeat;
     background-size: cover;
     height: 90vh;
 }
 
 .products-form {
-    background: url(src/background-pc/background_products.png) top no-repeat;
+    background: url(../src/background-pc/background_products.png) top no-repeat;
     background-size: cover;
 }
 
 .guarantee {
-    background: url(src/background-pc/background_guarantee.png) top no-repeat;
+    background: url(../src/background-pc/background_guarantee.png) top no-repeat;
     background-size: 100%;
     padding-bottom: 320px;
 }
 
 .support {
-    background: url(src/background-pc/background_support.png) top no-repeat;
+    background: url(../src/background-pc/background_support.png) top no-repeat;
     background-size: cover;
     height: 90vh;
     padding-bottom: 320px;
 }
 
 .support-form {
-    background: url(src/background-pc/background_support.png) top no-repeat;
+    background: url(../src/background-pc/background_support.png) top no-repeat;
     background-size: cover;
 }
 
 .anti-corruption-policy {
-    background: url(src/background-pc/anti-corruption_background.png) top no-repeat;
+    background: url(../src/background-pc/anti-corruption_background.png) top no-repeat;
     background-size: cover;
     padding-bottom: 320px;
 }
 
 .about {
-    background: url(src/background-pc/background_about.png) top no-repeat;
+    background: url(../src/background-pc/background_about.png) top no-repeat;
     background-size: cover;
     padding-bottom: 320px;
 }
 
 .not-found {
-    background: url(src/background-pc/background_404.png) top no-repeat;
+    background: url(../src/background-pc/background_404.png) top no-repeat;
     background-size: cover;
     height: 90vh;
     padding-bottom: 320px;
 }
 
 .contact {
-    background: url(src/background-pc/background_contact.png) top no-repeat;
+    background: url(../src/background-pc/background_contact.png) top no-repeat;
     background-size: cover;
         padding-bottom: 320px;
 }
@@ -356,7 +356,7 @@ img.displaySlide {
     content: "";
     position: absolute;
     right: -40px;
-    background-image: url('src/slider/right.svg');
+    background-image: url('../src/slider/right.svg');
     height: 28px;
     width: 19px;
     top: 50%;
@@ -371,7 +371,7 @@ img.displaySlide {
     content: "";
     position: absolute;
     left: -40px;
-    background-image: url('src/slider/left.svg');
+    background-image: url('../src/slider/left.svg');
     height: 28px;
     width: 19px;
     top: 50%;
@@ -392,7 +392,7 @@ img.displaySlide {
     position: absolute;
     right: -140px;
     top: -40px;
-    background-image: url("src/slider/circles.png");
+    background-image: url("../src/slider/circles.png");
     height: 560px;
     width: 1573px;
 }
@@ -417,7 +417,7 @@ img.displaySlide {
 .arrow::before {
     content: "";
     position: absolute;
-    background-image: url('src/slider/long-arrow.svg');
+    background-image: url('../src/slider/long-arrow.svg');
     height: 18px;
     width: 24px;
     cursor: pointer;
@@ -510,7 +510,7 @@ ol .green-link {
 .download-link::before {
     content: "";
     position: absolute;
-    background-image: url('src/download_icon.svg');
+    background-image: url('../src/download_icon.svg');
     height: 35px;
     width: 25px;
     cursor: pointer;
@@ -757,7 +757,7 @@ h3:first-of-type {
     content: "";
     position: absolute;
     right: 14px;
-    background-image: url("src/list-icon.svg");
+    background-image: url("../src/list-icon.svg");
     height: 12px;
     width: 19px;
     top: 30%;
