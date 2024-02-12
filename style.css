@@ -464,7 +464,7 @@ img.displaySlide {
     height: 18px;
     width: 24px;
     cursor: pointer;
-    top: 3px;
+    top: 25%;
 }
 
 .directions .body-text {
