@@ -455,6 +455,7 @@ img.displaySlide {
 
 .arrow {
     position: relative;
+    height: 25px;
 }
 
 .arrow::before {
@@ -462,9 +463,9 @@ img.displaySlide {
     position: absolute;
     background-image: url('src/slider/long-arrow.svg');
     height: 18px;
-    width: 24px;
+    width: 25px;
     cursor: pointer;
-    top: 25%;
+    top: 3px;
 }
 
 .directions .body-text {
