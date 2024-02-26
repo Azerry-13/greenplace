@@ -10,6 +10,9 @@
 
 body {
     background: #272827;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .main {
@@ -79,7 +82,7 @@ body {
 .contact {
     background: url(src/background-pc/background_contact.png) top no-repeat;
     background-size: cover;
-        padding-bottom: 190px;
+    padding-bottom: 320px;
 }
 
 .container {
@@ -161,6 +164,7 @@ body {
 
 header img {
     width: 118px;
+    margin-right: 158px;
 }
 
 header {
@@ -205,6 +209,7 @@ nav.mobile {
 
 header .green-link {
     text-transform: uppercase;
+    margin-left: auto;
 }
 
 .green-link {
@@ -332,6 +337,7 @@ h1 + p {
     font-size: 80px;
     font-weight: 600;
     margin-bottom: 8px;
+    height: 95px;
 }
 
 .stats-number::after {
@@ -516,6 +522,10 @@ footer .container {
     flex-wrap: wrap;
 }
 
+footer nav {
+    gap: 70px;
+}
+
 .rights {
     text-align: center;
     width: 100%;
@@ -525,6 +535,14 @@ footer .container {
 .rights .small-text {
     color: #1B1D1C;
     padding: 18px 0;
+}
+
+.guarantee-info {
+    padding: 0 200px;
+}
+
+.guarantee p.medium-text {
+    margin-top: 60px;
 }
 
 .guarantee-links, .anti-corruption-links {
@@ -637,7 +655,7 @@ ol p {
 }
 
 .anti-corruption_text {
-    padding: 0 200px;
+    padding: 0 220px;
 }
 
 .anti-corruption_text .medium-text {
@@ -652,12 +670,22 @@ ol p {
     padding-bottom: 136px;
 }
 
-.about img,
-.contact img {
+.about img {
     display: block;
     margin: 130px auto;
     width: 100%;
     border-radius: 10px;
+}
+
+.contact img {
+    display: block;
+    margin: 60px auto 120px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact .medium-text {
+    margin: 27px 0 0;
 }
 
 .about-text {
@@ -720,6 +748,7 @@ ol p {
     width: 100%;
     margin-bottom: 20px;
     padding: 14px;
+    outline: none;
 }
 
 .form input::placeholder,
@@ -736,6 +765,10 @@ ol p {
     accent-color: #0FBF4A;
     color: #FFF;
     margin-bottom: 0;
+}
+
+.form .body-text {
+    margin-top: 40px;
 }
 
 .form .green-link:first-of-type {
@@ -824,17 +857,21 @@ h3:first-of-type {
     .container {
         padding: 0 30px;
     }
+    header img {
+        margin-right: 0;
+    }
+    header .green-link {
+        text-transform: uppercase;
+        margin-left: 0;
+    }
     nav {
         gap: 40px;
     }
     footer img {
         margin-bottom: 20px;
     }
-    .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee {
+    .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee, .contact {
         padding-bottom: 200px;
-    }
-    .contact {
-        padding-bottom: 120px;
     }
     .partnership, .partnership-form, .products, .support, .not-found{
         height: 100%;
@@ -890,6 +927,10 @@ h3:first-of-type {
   @media screen and (max-width: 991px) {
     header nav {
         display: none;
+    }
+
+    header img {
+        margin-right: 0;
     }
 
     header nav {
@@ -1062,11 +1103,8 @@ h3:first-of-type {
     h2 + p {
         margin: 60px 0 72px;
     }
-    .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee {
+    .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee, .contact {
         padding-bottom: 120px;
-    }
-    .contact {
-        padding-bottom: 48px;
     }
     .form .body-text {
         text-align: left;
@@ -1258,17 +1296,13 @@ h3:first-of-type {
         padding-bottom: 240px;
     }
     
-    .about {
+    .about, .contact {
         padding-bottom: 240px;
     }
     
     .not-found {
         height: auto;
         padding-bottom: 240px;
-    }
-    
-    .contact {
-        padding-bottom: 48px;
     }
 
     .download_contact {
