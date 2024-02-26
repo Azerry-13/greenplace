@@ -164,7 +164,6 @@ body {
 
 header img {
     width: 118px;
-    margin-right: 158px;
 }
 
 header {
@@ -184,6 +183,10 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header nav {
+    margin-left: 158px;
 }
 
 nav {
@@ -857,12 +860,8 @@ h3:first-of-type {
     .container {
         padding: 0 30px;
     }
-    header img {
-        margin-right: 0;
-    }
     header .green-link {
         text-transform: uppercase;
-        margin-left: 0;
     }
     nav {
         gap: 40px;
