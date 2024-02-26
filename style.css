@@ -341,7 +341,7 @@ h1 + p {
     font-weight: 600;
     margin-bottom: 8px;
     height: 95px;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .stats-number::after {
