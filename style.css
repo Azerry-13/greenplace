@@ -185,7 +185,7 @@ header .container {
     align-items: center;
 }
 
-header nav {
+header .container > nav {
     margin-left: 158px;
 }
 
