@@ -462,12 +462,11 @@ img.displaySlide {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 40px;
+    padding-left: 33px;
 }
 
 .arrow {
     position: relative;
-    height: 25px;
 }
 
 .arrow::before {
