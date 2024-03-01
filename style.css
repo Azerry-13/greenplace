@@ -1017,6 +1017,7 @@ h3:first-of-type {
         font-size: 62px;
         margin-bottom: 20px;
         text-align: center;
+        height: auto;
     }
 
     .stats-number + p {
@@ -1137,6 +1138,22 @@ h3:first-of-type {
     .directions .body-text {
         text-align: left;
     }
+    .mission-content .big-text,
+    .mission-content .body-text,
+    .assortiment-content .body-text,
+    .assortiment-content .big-text,
+    .about-text .body-text,
+    .about-text .medium-text,
+    .partners-content .big-text,
+    .partners-content .body-text {
+        text-align: left;
+    }
+    .assortiment-content div {
+        width: 100%;
+    }
+    .guarantee-info {
+        padding: 0;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -1249,11 +1266,6 @@ h3:first-of-type {
         flex-wrap: wrap;
     }
 
-    .about-text .body-text,
-    .about-text .medium-text {
-        text-align: left;
-    }
-
     .mission-content {
         margin: 20px 0 100px;
         gap: 20px;
@@ -1262,25 +1274,11 @@ h3:first-of-type {
         flex-wrap: wrap;
     }
 
-    .mission-content .big-text,
-    .mission-content .body-text {
-        text-align: left;
-    }
-
     .assortiment-content {
         justify-content: center;
         margin: 24px 0 72px;
         gap: 20px;
         flex-wrap: wrap;
-    }
-
-    .assortiment-content .body-text,
-    .assortiment-content .big-text {
-        text-align: left;
-    }
-
-    .assortiment-content div {
-        width: 100%;
     }
 
     .about {
