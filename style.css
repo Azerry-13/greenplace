@@ -600,6 +600,7 @@ ol .green-link {
 
 .download-link {
     width: 300px;
+    position: relative;
 }
 
 .anti-corruption-policy .download-link {
