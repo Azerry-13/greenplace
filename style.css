@@ -46,7 +46,6 @@ body {
 
 .guarantee {
     background: url(src/background-pc/background_guarantee.png) top no-repeat;
-    background-size: 100%;
     padding-bottom: 320px;
 }
 
@@ -1312,22 +1311,21 @@ h3:first-of-type {
     }
     .partnership {
         height: auto;
-        padding-bottom: 120px;
+        padding-bottom: 240px;
     }
     
     .products {
         height: auto;
-        padding-bottom: 120px;
+        padding-bottom: 250px;
     }
     
     .guarantee {
-        background-size: 100%;
         padding-bottom: 120px;
     }
     
     .support {
         height: auto;
-        padding-bottom: 120px;
+        padding-bottom: 250px;
     }
     
     .anti-corruption-policy {
