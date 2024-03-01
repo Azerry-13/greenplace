@@ -599,12 +599,12 @@ ol .green-link {
 }
 
 .download-link {
-    max-width: 300px;
+    width: 300px;
     position: relative;
 }
 
 .anti-corruption-policy .download-link {
-    width: 380px;
+    max-width: 380px;
 }
 
 ol {
