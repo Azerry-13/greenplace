@@ -1370,6 +1370,9 @@ h3:first-of-type {
     .form h3 {
         text-align: left;
     }
+    .form h3:first-of-type {
+        margin-top: 72px;
+    }
     .form .green-link:first-of-type {
         font-size: 16px;
     }
