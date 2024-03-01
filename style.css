@@ -939,8 +939,8 @@ h3:first-of-type {
     }
 
     footer nav {
-        flex-direction: column;
         margin-top: 40px;
+        flex-wrap: wrap;
     }
   }
   @media screen and (max-width: 991px) {
@@ -1056,7 +1056,10 @@ h3:first-of-type {
     .partners-content {
         gap: 20px;
         margin-bottom: 120px;
-        flex-wrap: wrap;
+    }
+
+    .partners .button-green {
+        width: 270px;
     }
     .starter_buttons .button-green {
         margin: 0;
@@ -1160,6 +1163,9 @@ h3:first-of-type {
     .anti-corruption_text .body-text:nth-child(4) {
         padding-bottom: 72px;
     }
+    footer nav {
+        margin-top: 0;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -1226,6 +1232,10 @@ h3:first-of-type {
 
     .partners-block:first-of-type p:first-of-type {
         margin-bottom: 20px;
+    }
+
+    .partners-content {
+        flex-wrap: wrap;
     }
 
     .about-text .body-text {
@@ -1355,7 +1365,6 @@ h3:first-of-type {
         justify-content: flex-start;
     }
     .form {
-        margin-bottom: 120px;
         padding: 0 30px;
     }
     .form h3 {
@@ -1375,5 +1384,8 @@ h3:first-of-type {
     }
     ol .green-link {
         font-size: 16px;
+    }
+    footer nav {
+        flex-direction: column;
     }
   }
