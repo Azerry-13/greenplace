@@ -1205,6 +1205,7 @@ h3:first-of-type {
 
     .transparent-color {
         padding: 2px;
+        width: 300px;
     }
 
     .button-transparent {
