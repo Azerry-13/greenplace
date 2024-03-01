@@ -1115,9 +1115,6 @@ h3:first-of-type {
     .mission-content {
         margin-top: 60px;
     }
-    h2 + p {
-        margin: 60px 0 72px;
-    }
     .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee, .contact {
         padding-bottom: 120px;
     }
@@ -1339,6 +1336,12 @@ h3:first-of-type {
     
     .about, .contact {
         padding-bottom: 120px;
+    }
+
+    .contact {
+        background: url(src/background-pc/background_contact.png) top 20% right 94% no-repeat;
+        background-size: 430%;
+        padding-bottom: 320px;
     }
     
     .not-found {
