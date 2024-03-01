@@ -1331,6 +1331,7 @@ h3:first-of-type {
     .anti-corruption-policy {
         padding-bottom: 120px;
         background: url(src/background-pc/anti-corruption_background.png) top left 70% no-repeat;
+        background-size: cover;
     }
     
     .about, .contact {
