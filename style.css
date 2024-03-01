@@ -939,7 +939,6 @@ h3:first-of-type {
     }
 
     footer nav {
-        margin-top: 40px;
         flex-wrap: wrap;
     }
   }
@@ -1033,6 +1032,9 @@ h3:first-of-type {
 
     .stats-block {
         margin-bottom: 52px;
+    }
+    .stats-block:last-of-type {
+        margin-bottom: 0;
     }
     .container {
         padding: 0 30px;
@@ -1162,9 +1164,6 @@ h3:first-of-type {
     }
     .anti-corruption_text .body-text:nth-child(4) {
         padding-bottom: 72px;
-    }
-    footer nav {
-        margin-top: 0;
     }
   }
 
