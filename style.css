@@ -1333,7 +1333,11 @@ h3:first-of-type {
     
     .not-found {
         height: auto;
-        padding-bottom: 120px;
+        padding-bottom: 300px;
+    }
+
+    .not-found .button-green {
+        margin-top: 72px;
     }
 
     .download_contact {
