@@ -599,7 +599,7 @@ ol .green-link {
 }
 
 .download-link {
-    width: 300px;
+    max-width: 300px;
     position: relative;
 }
 
@@ -1390,5 +1390,8 @@ h3:first-of-type {
     }
     footer nav {
         flex-direction: column;
+    }
+    .anti-corruption_text .medium-text {
+        padding-bottom: 32px;
     }
   }
