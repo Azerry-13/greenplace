@@ -1114,9 +1114,6 @@ h3:first-of-type {
     .mission-content {
         margin-top: 60px;
     }
-    .about, .partnership, .partnership-form, .products, .products-form, .support, .not-found, .anti-corruption-policy, .guarantee, .contact {
-        padding-bottom: 120px;
-    }
     .form .body-text {
         text-align: left;
     }
@@ -1396,5 +1393,60 @@ h3:first-of-type {
     }
     .anti-corruption_text .medium-text {
         padding-bottom: 32px;
+    }
+    .main {
+        background: url(src/background-pc/background_main.png) top right no-repeat;
+        background-size: cover;
+    }
+    
+    .partnership {
+        background: url(src/background-mob/partner_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+
+    .partnership-form {
+        background: url(src/background-mob/formpartner_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .products {
+        background: url(src/background-mob/products_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .products-form {
+        background: url(src/background-mob/formprice_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .guarantee {
+        background: url(src/background-mob/guarantee_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .support, .support-form {
+        background: url(src/background-mob/support_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .anti-corruption-policy {
+        background: url(src/background-mob/anti-corruption_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .about {
+        background: url(src/background-mob/about_bg_mob.jpg) top no-repeat;
+        background-size: cover;
+    }
+    
+    .not-found {
+        background: url(src/background-mob/404_mob.jpg) top no-repeat;
+    }
+    
+    .contact {
+        background: url(src/background-mob/contact_bg_mob.jpg) top no-repeat;
+    }
+    .about, .partnership, .partnership-form, .products, .products-form, .support, .support-form, .not-found, .anti-corruption-policy, .guarantee, .contact {
+        padding-bottom: 240px;
     }
   }
